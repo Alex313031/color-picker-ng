@@ -3,7 +3,7 @@
   "main": "./lib/ColorPicker",
   "version": "2.3.1",
   "private": true,
-  "description": "Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it.",
+  "description": "Color Picker for Atom-ng. Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it.",
   "repository": {
     "type": "git",
     "url": "https://github.com/Alex313031/color-picker-ng"
@@ -16,7 +16,6 @@
   "scripts": {
     "test": "atom --test spec",
     "clean": "rm -r -f -v node_modules",
-    "install": "NODE_ENV=development",
     "build": "NODE_ENV=production npm install"
   },
   "license": "MIT",
